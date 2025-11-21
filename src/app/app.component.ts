@@ -7,6 +7,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('renewable-energy-dashboard');
+export class AppComponent  {
+  // protected readonly title = signal('renewable-energy-dashboard');
+  title = 'renewable-energy-dashboard';
 }
